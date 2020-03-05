@@ -4,6 +4,7 @@ import Layout from './components/Layout/Layout';
 import { Col, Row } from 'reactstrap';
 import Header from './components/Header/Header';
 import Dashboard from './components/Dashboard/Dashboard';
+import MovieContainer from './components/MovieContainer/MovieContainer';
 
 function App() {
   return (
@@ -11,14 +12,16 @@ function App() {
       <Layout fluid>
         <Row>
           <Col>
-            <Header />
+            <Header size='h1' title='WELCOME TO THE THUNDERDOME!' />
           </Col>
         </Row>
         <Row>
-          <Col md={2}>
+          <Col xs={16} md={2}>
             <Dashboard />
           </Col>
-          <Col md={10}>SHOW MOVIES HERE!</Col>
+          <Col xs={16} md={10}>
+            <MovieContainer />
+          </Col>
         </Row>
       </Layout>
     </div>
