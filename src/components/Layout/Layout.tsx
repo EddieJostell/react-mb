@@ -9,10 +9,10 @@ export interface IContainerProps extends ContainerProps {
 export const Layout: FunctionComponent<IContainerProps> = (
   props: IContainerProps
 ): JSX.Element => {
-  const { children, className, cssModule, ...other } = props;
+  const { children, className, ...other } = props;
 
   return (
-    <Container fluid={true} className='layout' {...other}>
+    <Container className='layout' {...other}>
       {children}
     </Container>
   );

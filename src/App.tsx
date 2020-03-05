@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Layout>
+      <Layout fluid>
         HEJ
         <Button onClick={handleClick} color='primary'>
           Primary
