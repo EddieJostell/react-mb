@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import { Container, ContainerProps } from 'reactstrap';
-import './Layout.less';
+import './Layout.css';
 
 export interface IContainerProps extends ContainerProps {
   children?: React.ReactNode;
