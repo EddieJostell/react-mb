@@ -4,7 +4,7 @@ import './Header.css';
 export interface IHeaderProps {
   children?: React.ReactNode;
   title?: string;
-  size: 'h1' | 'h2' | 'h3' | 'h4';
+  size: 'h1' | 'h2' | 'h3' | 'h4' | 'h5';
 }
 
 export const Header: FunctionComponent<IHeaderProps> = (
@@ -26,6 +26,9 @@ export const Header: FunctionComponent<IHeaderProps> = (
       case 'h4':
         return <h4>{title}</h4>;
         break;
+        case 'h5':
+          return <h5>{title}</h5>;
+          break;
       default:
         return <h1>{title}</h1>;
     }
