@@ -3,23 +3,19 @@ import { Modal, ModalBody, Jumbotron, ModalFooter, Button } from 'reactstrap';
 
 export interface IMoreInfoProps {
   isOpen: boolean;
+  handleClick: () => void;
 }
 
 export const MoreInfo = (props: IMoreInfoProps) => {
-  const { isOpen } = props;
+  const { isOpen, handleClick } = props;
 
-  const [toggleModal, setToggleModal] = useState(isOpen);
-
-  const toggle = () => {
-    setToggleModal(!toggleModal);
-  };
   console.log(isOpen);
   return (
-    <Modal isOpen={isOpen} toggle={toggle}>
+    <Modal isOpen={isOpen}>
       <ModalBody>
         <Jumbotron>ASDF</Jumbotron>
         <ModalFooter>
-          <Button onClick={toggle}>Close</Button>
+          <Button onClick={handleClick}>Close</Button>
         </ModalFooter>
       </ModalBody>
     </Modal>

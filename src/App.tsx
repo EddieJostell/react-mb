@@ -10,7 +10,6 @@ import { MovieList } from './movies';
 function App() {
   const [movieState, setMovieState] = useState(MovieList);
   const fetchFromApi = () => {
-    console.log('ALEX');
     const apiKey = '1f45a076';
     let movies = `http://www.omdbapi.com/?t=taxi&plot=full&apikey=${apiKey}`;
 
@@ -19,12 +18,8 @@ function App() {
         return response.json();
       })
       .then(data => {
-        console.log(data);
-
         movieState.push(data);
         setMovieState([...movieState]);
-        /*  setMovieState([...movieState]); */
-        console.log(movieState);
       });
   };
 

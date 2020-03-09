@@ -70,7 +70,7 @@ export const MovieCard = (props: IMovieCardProps) => {
           <Button onClick={showMoreClick}>Show More</Button>
         </CardBody>
       </Card>
-      <MoreInfo isOpen={modal} />
+      <MoreInfo isOpen={modal} handleClick={showMoreClick} />
     </Col>
   );
 };
