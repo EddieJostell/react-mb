@@ -1,2 +1,3 @@
-# react-mb
+# react-mdb
+
 Moviedatabase with React/Typescript
