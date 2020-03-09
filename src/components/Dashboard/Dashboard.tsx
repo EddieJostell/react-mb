@@ -2,17 +2,13 @@ import React, { Component, FunctionComponent } from 'react';
 import './Dashboard.css';
 import { Row, Button, Col, Input } from 'reactstrap';
 import Header from '../Header/Header';
-import { IMovieList } from '../../movies';
 
 export interface IDashboardProps {
-  //movieList: IMovieList;
+  handleClick: () => void;
 }
 
-export const Dashboard: FunctionComponent<IDashboardProps> = (
-  props: IDashboardProps
-): JSX.Element => {
-  // const { movieList } = props;
-
+export const Dashboard = (props: IDashboardProps): JSX.Element => {
+  const { handleClick } = props;
   return (
     <Col className='dashboard'>
       <Row>
@@ -22,15 +18,15 @@ export const Dashboard: FunctionComponent<IDashboardProps> = (
       </Row>
       <Row>
         <Col md={{ size: 6, offset: 3 }}>
+          <Button outline color='danger' className='mb-5' onClick={handleClick}>
+            All Movies
+          </Button>
           <Input />
           <Button outline color='danger' className='mb-5'>
             Top Rated
           </Button>
           <Button outline color='danger' className='mb-5'>
             Popular
-          </Button>
-          <Button outline color='danger' className='mb-5'>
-            All Movies
           </Button>
           <Button outline color='danger' className='mb-5'>
             Sort By Genre

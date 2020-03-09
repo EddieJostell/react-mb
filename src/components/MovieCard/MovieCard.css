@@ -1,0 +1,12 @@
+.MovieCard {
+  /*    max-width: 320px;
+  max-height: 470px; */
+  text-align: left;
+  font-weight: bold;
+}
+
+.MovieImg {
+  /* max-height: 400px;
+ */
+  padding: 10px;
+}

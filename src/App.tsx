@@ -8,11 +8,11 @@ import MovieContainer from './components/MovieContainer/MovieContainer';
 import { MovieList } from './movies';
 
 function App() {
-  const [getData, setGetData] = useState(MovieList);
-  /*   const fetchFromApi = () => {
+  const [movieState, setMovieState] = useState(MovieList);
+  const fetchFromApi = () => {
+    console.log('ALEX');
     const apiKey = '1f45a076';
-    const q = 's=batman';
-      let movies = `http://www.omdbapi.com/?t=Gladiator&apikey=${apiKey}`;
+    let movies = `http://www.omdbapi.com/?t=taxi&plot=full&apikey=${apiKey}`;
 
     fetch(movies)
       .then(response => {
@@ -20,15 +20,14 @@ function App() {
       })
       .then(data => {
         console.log(data);
-      });
-  }; */
 
-  const fetchFromLocalDatabase = () => {
-    console.log(MovieList);
-    setGetData(getData);
+        movieState.push(data);
+        setMovieState([...movieState]);
+        /*  setMovieState([...movieState]); */
+        console.log(movieState);
+      });
   };
-  console.log(getData);
-  useEffect(() => fetchFromLocalDatabase());
+
   return (
     <div className='App'>
       <Layout fluid>
@@ -39,10 +38,10 @@ function App() {
         </Row>
         <Row>
           <Col xs={16} md={2}>
-            <Dashboard />
+            <Dashboard handleClick={fetchFromApi} />
           </Col>
           <Col xs={16} md={10}>
-            <MovieContainer />
+            <MovieContainer movieList={movieState} />
           </Col>
         </Row>
       </Layout>

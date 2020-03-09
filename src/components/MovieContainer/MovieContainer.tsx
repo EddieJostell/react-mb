@@ -1,18 +1,26 @@
-import React from 'react';
-import { Col } from 'reactstrap';
+import React, { useEffect } from 'react';
+import { Col, CardColumns, Row } from 'reactstrap';
 import './MovieContainer.css';
-import Header from '../Header/Header';
+import { IMovieCard } from '../../movies';
+import MovieCard from '../MovieCard/MovieCard';
 
 export interface IMovieContainerProps {
   children?: React.ReactNode;
+  movieList: IMovieCard[];
 }
 
-export const MovieContainer = () => {
-  return (
-    <Col className='movieContainer'>
-      <Header size='h3' title='Movie List' />
-    </Col>
-  );
+export const MovieContainer = (props: IMovieContainerProps) => {
+  const { children, movieList } = props;
+
+  const showMovies = (movieList: any) => {
+    const myLocalMovies = movieList.map((movie: any, key: any) => {
+      return <MovieCard key={key} {...movie} />;
+    });
+
+    return myLocalMovies;
+  };
+
+  return <Row className='movieContainer'>{showMovies(movieList)}</Row>;
 };
 
 export default MovieContainer;
