@@ -1,0 +1,21 @@
+.MoreInfo {
+  max-width: 1200px !important;
+}
+
+.MoreInfo-body {
+  padding-top: 0 !important;
+}
+
+img {
+  width: 100%;
+}
+
+.close {
+  padding-top: 10px !important;
+}
+
+p {
+  margin-left: 5px;
+  font-size: 14px;
+  text-align: left;
+}
