@@ -7,3 +7,7 @@
 .MovieImg {
   padding: 10px;
 }
+
+p {
+  margin-left: 0 !important;
+}

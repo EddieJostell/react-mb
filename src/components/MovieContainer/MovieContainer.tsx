@@ -1,26 +1,38 @@
-import React, { useEffect } from "react";
-import { Row } from "reactstrap";
-import "./MovieContainer.css";
-import { IMovieCard } from "../../movies";
-import MovieCard from "../MovieCard/MovieCard";
+import React, { useEffect } from 'react';
+import { Row, Col } from 'reactstrap';
+import './MovieContainer.css';
+import { IMovieCard } from '../../movies';
+import MovieCard from '../MovieCard/MovieCard';
+import Header from '../Header/Header';
 
 export interface IMovieContainerProps {
   children?: React.ReactNode;
-  movieList: IMovieCard[];
+  localMovieList: IMovieCard[];
 }
 
 export const MovieContainer = (props: IMovieContainerProps) => {
-  const { movieList } = props;
+  const { localMovieList } = props;
 
-  const showMovies = (movieList: any) => {
-    const myLocalMovies = movieList.map((movie: IMovieCard, key: any) => {
-      return <MovieCard key={key} movieInfo={movie} />;
+  const showMoviesFromLocalDb = (movieList: any) => {
+    const myLocalMovies = localMovieList.map((movie: IMovieCard, key: any) => {
+      return <MovieCard key={key} localMovieInfo={movie} />;
     });
 
     return myLocalMovies;
   };
 
-  return <Row className="movieContainer">{showMovies(movieList)}</Row>;
+  return (
+    <Row className='movieContainer'>
+      <Col>
+        <Row>
+          <Col>
+            <Header size='h1' title='<--- Movies from API HERE --->' />
+          </Col>
+        </Row>
+      </Col>
+      <Row>{showMoviesFromLocalDb(localMovieList)}</Row>
+    </Row>
+  );
 };
 
 export default MovieContainer;
