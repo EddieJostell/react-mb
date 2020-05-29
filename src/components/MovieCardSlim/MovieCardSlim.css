@@ -1,0 +1,13 @@
+.MovieCardSlim {
+  text-align: left;
+  font-weight: bold;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.MovieImg {
+  padding: 10px;
+}
+
+p {
+  margin-left: 0 !important;
+}

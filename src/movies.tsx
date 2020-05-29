@@ -48,7 +48,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.5/10' },
       { Source: 'Rotten Tomatoes', Value: '93%' },
-      { Source: 'Metacritic', Value: '75/100' }
+      { Source: 'Metacritic', Value: '75/100' },
     ],
     Metascore: '75',
     imdbRating: '8.5',
@@ -59,7 +59,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$198,116,802',
     Production: 'TriStar Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Alien',
@@ -83,7 +83,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.4/10' },
       { Source: 'Rotten Tomatoes', Value: '97%' },
-      { Source: 'Metacritic', Value: '89/100' }
+      { Source: 'Metacritic', Value: '89/100' },
     ],
     Metascore: '89',
     imdbRating: '8.4',
@@ -94,7 +94,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: '20th Century Fox',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Jason Bourne',
@@ -117,7 +117,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '6.6/10' },
       { Source: 'Rotten Tomatoes', Value: '54%' },
-      { Source: 'Metacritic', Value: '58/100' }
+      { Source: 'Metacritic', Value: '58/100' },
     ],
     Metascore: '58',
     imdbRating: '6.6',
@@ -128,7 +128,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$162,162,120',
     Production: 'Universal',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Logan',
@@ -151,7 +151,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.1/10' },
       { Source: 'Rotten Tomatoes', Value: '93%' },
-      { Source: 'Metacritic', Value: '77/100' }
+      { Source: 'Metacritic', Value: '77/100' },
     ],
     Metascore: '77',
     imdbRating: '8.1',
@@ -162,7 +162,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$226,276,809',
     Production: '20th Century Fox',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Waterworld',
@@ -184,7 +184,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '6.2/10' },
       { Source: 'Rotten Tomatoes', Value: '45%' },
-      { Source: 'Metacritic', Value: '56/100' }
+      { Source: 'Metacritic', Value: '56/100' },
     ],
     Metascore: '56',
     imdbRating: '6.2',
@@ -195,7 +195,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'MCA Universal Home Video',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Inception',
@@ -217,7 +217,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.8/10' },
       { Source: 'Rotten Tomatoes', Value: '87%' },
-      { Source: 'Metacritic', Value: '74/100' }
+      { Source: 'Metacritic', Value: '74/100' },
     ],
     Metascore: '74',
     imdbRating: '8.8',
@@ -228,7 +228,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$292,568,851',
     Production: 'Warner Bros. Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Blade Runner',
@@ -251,7 +251,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.1/10' },
       { Source: 'Rotten Tomatoes', Value: '89%' },
-      { Source: 'Metacritic', Value: '84/100' }
+      { Source: 'Metacritic', Value: '84/100' },
     ],
     Metascore: '84',
     imdbRating: '8.1',
@@ -262,7 +262,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Warner Bros. Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Casino Royale',
@@ -285,7 +285,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.0/10' },
       { Source: 'Rotten Tomatoes', Value: '95%' },
-      { Source: 'Metacritic', Value: '80/100' }
+      { Source: 'Metacritic', Value: '80/100' },
     ],
     Metascore: '80',
     imdbRating: '8.0',
@@ -296,7 +296,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$167,007,184',
     Production: 'Sony',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
 
   {
@@ -320,7 +320,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.7/10' },
       { Source: 'Rotten Tomatoes', Value: '71%' },
-      { Source: 'Metacritic', Value: '52/100' }
+      { Source: 'Metacritic', Value: '52/100' },
     ],
     Metascore: '52',
     imdbRating: '7.7',
@@ -331,7 +331,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Sony Pictures Home Entertainment',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Poltergeist',
@@ -355,7 +355,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.3/10' },
       { Source: 'Rotten Tomatoes', Value: '85%' },
-      { Source: 'Metacritic', Value: '79/100' }
+      { Source: 'Metacritic', Value: '79/100' },
     ],
     Metascore: '79',
     imdbRating: '7.3',
@@ -366,7 +366,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'MGM Home Entertainment',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
 
   {
@@ -389,7 +389,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.1/10' },
       { Source: 'Rotten Tomatoes', Value: '82%' },
-      { Source: 'Metacritic', Value: '71/100' }
+      { Source: 'Metacritic', Value: '71/100' },
     ],
     Metascore: '71',
     imdbRating: '8.1',
@@ -400,7 +400,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Gramercy Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
 
   {
@@ -424,7 +424,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.9/10' },
       { Source: 'Rotten Tomatoes', Value: '92%' },
-      { Source: 'Metacritic', Value: '94/100' }
+      { Source: 'Metacritic', Value: '94/100' },
     ],
     Metascore: '94',
     imdbRating: '8.9',
@@ -435,7 +435,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Miramax Films',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Titanic',
@@ -457,7 +457,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.8/10' },
       { Source: 'Rotten Tomatoes', Value: '89%' },
-      { Source: 'Metacritic', Value: '75/100' }
+      { Source: 'Metacritic', Value: '75/100' },
     ],
     Metascore: '75',
     imdbRating: '7.8',
@@ -468,7 +468,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Paramount Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Aliens',
@@ -491,7 +491,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.3/10' },
       { Source: 'Rotten Tomatoes', Value: '99%' },
-      { Source: 'Metacritic', Value: '84/100' }
+      { Source: 'Metacritic', Value: '84/100' },
     ],
     Metascore: '84',
     imdbRating: '8.3',
@@ -502,7 +502,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: '20th Century Fox',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Fight Club',
@@ -524,7 +524,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.8/10' },
       { Source: 'Rotten Tomatoes', Value: '79%' },
-      { Source: 'Metacritic', Value: '66/100' }
+      { Source: 'Metacritic', Value: '66/100' },
     ],
     Metascore: '66',
     imdbRating: '8.8',
@@ -535,7 +535,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: '20th Century Fox',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'The Exorcist',
@@ -558,7 +558,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.0/10' },
       { Source: 'Rotten Tomatoes', Value: '84%' },
-      { Source: 'Metacritic', Value: '81/100' }
+      { Source: 'Metacritic', Value: '81/100' },
     ],
     Metascore: '81',
     imdbRating: '8.0',
@@ -569,7 +569,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Warner Bros. Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Blade Runner 2049',
@@ -592,7 +592,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.0/10' },
       { Source: 'Rotten Tomatoes', Value: '87%' },
-      { Source: 'Metacritic', Value: '81/100' }
+      { Source: 'Metacritic', Value: '81/100' },
     ],
     Metascore: '81',
     imdbRating: '8.0',
@@ -603,7 +603,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$91,800,042',
     Production: 'Warner Bros. Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Spectre',
@@ -626,7 +626,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '6.8/10' },
       { Source: 'Rotten Tomatoes', Value: '63%' },
-      { Source: 'Metacritic', Value: '60/100' }
+      { Source: 'Metacritic', Value: '60/100' },
     ],
     Metascore: '60',
     imdbRating: '6.8',
@@ -637,7 +637,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$208,777,731',
     Production: 'Sony Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Star Wars: Episode VI - Return of the Jedi',
@@ -660,7 +660,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.3/10' },
       { Source: 'Rotten Tomatoes', Value: '82%' },
-      { Source: 'Metacritic', Value: '58/100' }
+      { Source: 'Metacritic', Value: '58/100' },
     ],
     Metascore: '58',
     imdbRating: '8.3',
@@ -671,7 +671,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Twentieth Century Fox',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Fury',
@@ -693,7 +693,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.6/10' },
       { Source: 'Rotten Tomatoes', Value: '76%' },
-      { Source: 'Metacritic', Value: '64/100' }
+      { Source: 'Metacritic', Value: '64/100' },
     ],
     Metascore: '64',
     imdbRating: '7.6',
@@ -704,7 +704,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$72,609,225',
     Production: 'Sony Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Gladiator',
@@ -727,7 +727,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.5/10' },
       { Source: 'Rotten Tomatoes', Value: '76%' },
-      { Source: 'Metacritic', Value: '67/100' }
+      { Source: 'Metacritic', Value: '67/100' },
     ],
     Metascore: '67',
     imdbRating: '8.5',
@@ -738,7 +738,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Dreamworks Distribution LLC',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Fantastic Beasts and Where to Find Them',
@@ -760,7 +760,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.3/10' },
       { Source: 'Rotten Tomatoes', Value: '74%' },
-      { Source: 'Metacritic', Value: '66/100' }
+      { Source: 'Metacritic', Value: '66/100' },
     ],
     Metascore: '66',
     imdbRating: '7.3',
@@ -771,7 +771,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$234,018,657',
     Production: 'Warner Bros. Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Quantum of Solace',
@@ -794,7 +794,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '6.6/10' },
       { Source: 'Rotten Tomatoes', Value: '65%' },
-      { Source: 'Metacritic', Value: '58/100' }
+      { Source: 'Metacritic', Value: '58/100' },
     ],
     Metascore: '58',
     imdbRating: '6.6',
@@ -805,7 +805,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$168,400,000',
     Production: 'Sony/MGM',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Spirited Away',
@@ -827,7 +827,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.6/10' },
       { Source: 'Rotten Tomatoes', Value: '97%' },
-      { Source: 'Metacritic', Value: '96/100' }
+      { Source: 'Metacritic', Value: '96/100' },
     ],
     Metascore: '96',
     imdbRating: '8.6',
@@ -838,7 +838,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$9,855,615',
     Production: 'Walt Disney Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Redline',
@@ -860,7 +860,7 @@ export const MovieList: IMovieCard[] = [
       'https://m.media-amazon.com/images/M/MV5BNGYxYzI5ODQtY2JmYy00ZjFjLTg5MjgtMjI3Njg5ODEwNmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg',
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.5/10' },
-      { Source: 'Rotten Tomatoes', Value: '63%' }
+      { Source: 'Rotten Tomatoes', Value: '63%' },
     ],
     Metascore: 'N/A',
     imdbRating: '7.5',
@@ -871,7 +871,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Anchor Bay Entertainment',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Doctor Strange',
@@ -895,7 +895,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.5/10' },
       { Source: 'Rotten Tomatoes', Value: '89%' },
-      { Source: 'Metacritic', Value: '72/100' }
+      { Source: 'Metacritic', Value: '72/100' },
     ],
     Metascore: '72',
     imdbRating: '7.5',
@@ -906,7 +906,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$232,630,718',
     Production: 'Walt Disney Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Thor: Ragnarok',
@@ -929,7 +929,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.9/10' },
       { Source: 'Rotten Tomatoes', Value: '93%' },
-      { Source: 'Metacritic', Value: '74/100' }
+      { Source: 'Metacritic', Value: '74/100' },
     ],
     Metascore: '74',
     imdbRating: '7.9',
@@ -940,7 +940,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$314,971,245',
     Production: 'Walt Disney Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Guardians of the Galaxy',
@@ -963,7 +963,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '8.0/10' },
       { Source: 'Rotten Tomatoes', Value: '91%' },
-      { Source: 'Metacritic', Value: '76/100' }
+      { Source: 'Metacritic', Value: '76/100' },
     ],
     Metascore: '76',
     imdbRating: '8.0',
@@ -974,7 +974,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$270,592,504',
     Production: 'Walt Disney Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'The Last Samurai',
@@ -997,7 +997,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.7/10' },
       { Source: 'Rotten Tomatoes', Value: '66%' },
-      { Source: 'Metacritic', Value: '55/100' }
+      { Source: 'Metacritic', Value: '55/100' },
     ],
     Metascore: '55',
     imdbRating: '7.7',
@@ -1008,7 +1008,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$111,000,000',
     Production: 'Warner Bros. Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: "The Sorcerer's Apprentice",
@@ -1031,7 +1031,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '6.1/10' },
       { Source: 'Rotten Tomatoes', Value: '40%' },
-      { Source: 'Metacritic', Value: '46/100' }
+      { Source: 'Metacritic', Value: '46/100' },
     ],
     Metascore: '46',
     imdbRating: '6.1',
@@ -1042,7 +1042,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$63,143,812',
     Production: 'Walt Disney Studios',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Skyfall',
@@ -1064,7 +1064,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.7/10' },
       { Source: 'Rotten Tomatoes', Value: '92%' },
-      { Source: 'Metacritic', Value: '81/100' }
+      { Source: 'Metacritic', Value: '81/100' },
     ],
     Metascore: '81',
     imdbRating: '7.7',
@@ -1075,7 +1075,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$299,300,000',
     Production: 'MGM',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Lord of War',
@@ -1098,7 +1098,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.6/10' },
       { Source: 'Rotten Tomatoes', Value: '62%' },
-      { Source: 'Metacritic', Value: '62/100' }
+      { Source: 'Metacritic', Value: '62/100' },
     ],
     Metascore: '62',
     imdbRating: '7.6',
@@ -1109,7 +1109,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$24,033,036',
     Production: 'Lions Gate',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Gone in 60 Seconds',
@@ -1131,7 +1131,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '6.5/10' },
       { Source: 'Rotten Tomatoes', Value: '25%' },
-      { Source: 'Metacritic', Value: '35/100' }
+      { Source: 'Metacritic', Value: '35/100' },
     ],
     Metascore: '35',
     imdbRating: '6.5',
@@ -1142,7 +1142,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$100,978,700',
     Production: 'Buena Vista Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Gothika',
@@ -1165,7 +1165,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '5.8/10' },
       { Source: 'Rotten Tomatoes', Value: '15%' },
-      { Source: 'Metacritic', Value: '38/100' }
+      { Source: 'Metacritic', Value: '38/100' },
     ],
     Metascore: '38',
     imdbRating: '5.8',
@@ -1176,7 +1176,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: '$59,537,388',
     Production: 'Warner Bros. Pictures',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'The Rock',
@@ -1199,7 +1199,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.4/10' },
       { Source: 'Rotten Tomatoes', Value: '66%' },
-      { Source: 'Metacritic', Value: '58/100' }
+      { Source: 'Metacritic', Value: '58/100' },
     ],
     Metascore: '58',
     imdbRating: '7.4',
@@ -1210,7 +1210,7 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Disney',
     Website: 'N/A',
-    Response: 'True'
+    Response: 'True',
   },
   {
     Title: 'Mission: Impossible',
@@ -1233,7 +1233,7 @@ export const MovieList: IMovieCard[] = [
     Ratings: [
       { Source: 'Internet Movie Database', Value: '7.1/10' },
       { Source: 'Rotten Tomatoes', Value: '63%' },
-      { Source: 'Metacritic', Value: '59/100' }
+      { Source: 'Metacritic', Value: '59/100' },
     ],
     Metascore: '59',
     imdbRating: '7.1',
@@ -1244,6 +1244,16 @@ export const MovieList: IMovieCard[] = [
     BoxOffice: 'N/A',
     Production: 'Paramount Pictures',
     Website: 'N/A',
-    Response: 'True'
-  }
+    Response: 'True',
+  },
 ];
+
+export interface IApiMovieCard {
+  Title: string;
+  Year: string;
+  imdbID: string;
+  Type: string;
+  Poster: string;
+}
+
+export const ApiMovieList: IApiMovieCard[] = [];
