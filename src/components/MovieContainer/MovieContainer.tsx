@@ -15,7 +15,7 @@ export interface IMovieContainerProps {
 export const MovieContainer = (props: IMovieContainerProps) => {
   const { localMovieList, apiMovieList } = props;
 
-  const showMoviesFromLocalDb = (movieList: any) => {
+  const showMoviesFromLocalDb = (localMovieList: any) => {
     const myLocalMovies = localMovieList.map((movie: IMovieCard, key: any) => {
       return <MovieCard key={key} localMovieInfo={movie} />;
     });
@@ -23,27 +23,31 @@ export const MovieContainer = (props: IMovieContainerProps) => {
     return myLocalMovies;
   };
 
-  const showMoviesFromAPI = (api: any) => {
+  const showMoviesFromAPI = (apiMovieList: any) => {
     const apiMovies = apiMovieList.map((api: IApiMovieCard, key: any) => {
       return <MovieCardSlim key={key} apiMovieInfo={api} />;
     });
+
     return apiMovies;
   };
 
   return (
-    <Row className='movieContainer'>
+    <div className='movieContainer'>
+      <Row>
+        <Col>
+          <Row>
+            <Header size='h1' title='<--- Movies from API HERE --->' />
+          </Row>
+          <Row>{showMoviesFromAPI(apiMovieList)}</Row>
+        </Col>
+      </Row>
       <Col>
         <Row>
-          <Col>
-            <Row>
-              <Header size='h1' title='<--- Movies from API HERE --->' />
-            </Row>
-            <Row>{showMoviesFromAPI(apiMovieList)}</Row>
-          </Col>
+          <Header size='h1' title='THE MOVIE BANK' />
         </Row>
+        <Row>{showMoviesFromLocalDb(localMovieList)}</Row>
       </Col>
-      <Row>{showMoviesFromLocalDb(localMovieList)}</Row>
-    </Row>
+    </div>
   );
 };
 
