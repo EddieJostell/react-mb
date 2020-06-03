@@ -1,11 +1,11 @@
-import React, { useState, KeyboardEvent, FormEvent } from 'react';
+import React, { useState, KeyboardEvent } from 'react';
 import './App.css';
 import Layout from './components/Layout/Layout';
 import { Col, Row } from 'reactstrap';
 import Header from './components/Header/Header';
 import Dashboard from './components/Dashboard/Dashboard';
 import MovieContainer from './components/MovieContainer/MovieContainer';
-import { MovieList, ApiMovieList, IApiMovieCard } from './movies';
+import { MovieList, IApiMovieCard } from './movies';
 
 function App() {
   const [localMovieState, setMovieState] = useState(MovieList);
@@ -54,7 +54,13 @@ function App() {
         });
     }
   };
-
+  /* 
+  const sortMoviesByGenre = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Enter') {
+      const query = event.currentTarget.value;
+    }
+  };
+ */
   return (
     <div className='App'>
       <Layout fluid>
@@ -65,7 +71,11 @@ function App() {
         </Row>
         <Row>
           <Col xs={16} md={2}>
-            <Dashboard titleSearch={fetchMoviesFromApi} />
+            <Dashboard
+              titleSearch={fetchMoviesFromApi}
+              /* genreSearch={sortMoviesByGenre} */
+              localMovieList={localMovieState}
+            />
           </Col>
           <Col xs={16} md={10}>
             <MovieContainer

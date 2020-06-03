@@ -7,10 +7,10 @@ import {
   Card,
   CardImg,
   Button,
-  Col
+  Col,
 } from 'reactstrap';
 import './MovieCard.css';
-import MoreInfo, { IMoreInfoProps } from './MoreInfo/MoreInfo';
+import MoreInfo from './MoreInfo/MoreInfo';
 import { IMovieCard } from '../../movies';
 
 export interface IMovieCardProps {

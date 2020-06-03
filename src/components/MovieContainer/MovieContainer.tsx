@@ -24,7 +24,11 @@ export const MovieContainer = (props: IMovieContainerProps) => {
   };
 
   const showMoviesFromAPI = (apiMovieList: any) => {
-    const apiMovies = apiMovieList.map((api: IApiMovieCard, key: any) => {
+    var moviesOnly = apiMovieList.filter((only: any) => {
+      return only.Type === 'movie';
+    });
+
+    const apiMovies = moviesOnly.map((api: IApiMovieCard, key: any) => {
       return <MovieCardSlim key={key} apiMovieInfo={api} />;
     });
 
