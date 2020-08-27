@@ -33,6 +33,7 @@ export const Dashboard = (props: IDashboardProps): JSX.Element => {
 
   // For next time map localMovieList find all genres from every movie and put them into another array
   // Take that array and trim/sort and display the genres in the dropdown below.
+  // HEJ
 
   return (
     <Col className='dashboard'>
