@@ -33,13 +33,12 @@ export const Dashboard = (props: IDashboardProps): JSX.Element => {
 
   // For next time map localMovieList find all genres from every movie and put them into another array
   // Take that array and trim/sort and display the genres in the dropdown below.
-  // HEJ
 
   return (
-    <Col className='dashboard'>
+    <Col className="dashboard">
       <Row>
-        <Col className='mb-5'>
-          <Header title='List Movies By:' size='h2' />
+        <Col className="mb-5">
+          <Header title="List Movies By:" size="h2" />
         </Col>
       </Row>
       <Row>
@@ -49,12 +48,12 @@ export const Dashboard = (props: IDashboardProps): JSX.Element => {
               Add to DB
             </Button>
           </Row> */}
-          <Row className='mb-4'>
-            <Header size='h6' title='Search by title' />
-            <Input placeholder='enter movie name' onKeyDown={titleSearch} />
+          <Row className="mb-4">
+            <Header size="h6" title="Search by title" />
+            <Input placeholder="enter movie name" onKeyDown={titleSearch} />
           </Row>
-          <Row className='mb-4'>
-            <Header size='h6' title='Search by genre' />
+          <Row className="mb-4">
+            <Header size="h6" title="Search by genre" />
             <Dropdown isOpen={dropdownOpen} toggle={toggle}>
               <DropdownToggle caret>Genres</DropdownToggle>
               <DropdownMenu>
